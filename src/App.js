@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Map, {Marker} from 'react-map-gl';
+import PinLocation from '@mui/icons-material/LocationOn';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                 offsetTop={10}
                 anchor="bottom" >
                 <img src="./pin.png" />
+                <PinLocation />
             </Marker>
         </Map>
     </div>
